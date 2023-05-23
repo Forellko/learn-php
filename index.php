@@ -1,3 +1,5 @@
 <?php
-  print(1)
+  $a = time();
+  $b = date('l F jS Y',  $a);
+  echo $b;
 ?>
